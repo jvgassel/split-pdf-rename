@@ -1,6 +1,6 @@
 from PyPDF2 import PdfFileWriter, PdfFileReader
 
-inputpdf = PdfFileReader(open("robje.pdf", "rb"))
+inputpdf = PdfFileReader(open("report.pdf", "rb"))
 
 with open('regcode.txt') as f:
     lines = [line.rstrip('\n') for line in open('regcode.txt')]
